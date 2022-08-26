@@ -21,6 +21,19 @@ public class StringIntro {
         //and an error occurs
 //        System.out.print(Hi);
 
+        //declare a variable
+        //-reference a var for the first time so that
+        //the program knows it's a variables
+        String lunch = "sandwich";
+
+        System.out.println();
+        //println() - print line
+        //puts a line break AFTER whatever you're printing
+        //print() keeps everything on the same line
+        System.out.println(lunch);
+
+        System.out.println("I have a " + lunch + " for lunch today");
+
 
 
     }
